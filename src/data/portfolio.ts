@@ -52,7 +52,7 @@ export type Portfolio = {
 
 export const portfolio: Portfolio = {
   name: "Ahmed Ben Aissa",
-  role: "Software Engineering Student · Backend Development",
+  role: "Software Engineering Student · Backend Development - DevOps",
   headline:
     "Backend engineering student building with Express, NestJS and TypeScript. I learn by building small, complete pieces and then wiring them into larger systems.",
   locationLine: "Beni Khiar, Nabeul, Tunisia · ISSAT Sousse · Class of 2028",
@@ -133,6 +133,11 @@ export const portfolio: Portfolio = {
       title: "Task Manager",
       summary: "A full-stack task manager application.",
       stack: ["React", "Express", "TypeScript", "Prisma", "Redis", "Docker", "CI/CD"],
+    },
+    {
+      title: "Google Drive Clone",
+      summary: "A full-stack Google Drive Clone.",
+      stack: ["React", "Nestjs", "TypeScript", "Prisma", "S3", "CI/CD"],
     },
   ],
   log: [
